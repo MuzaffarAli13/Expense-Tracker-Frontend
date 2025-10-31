@@ -1,0 +1,17 @@
+export const apiEndPoints = {
+  registerUser: "auth/register",
+  login: "auth/login",
+  uploadPofileImage: "auth/upload-image",
+  addIncome: "income/add",
+  addExpense: "expense/add",
+  downloadExpense: "expense/downloadexcel",
+  downloadIncome: "income/downloadexcel",
+  getIncome: "income/get",
+  deleteIncome: (id) => `income/${id}`,
+  deleteExpense: (id) => `expense/${id}`,
+  refreshExpense: (date) => `expense/${date}`,
+  refreshIncome: (date) => `income/${date}`,
+  getExpense: "expense/get",
+  getTracker: "tracker/get",
+  getUser: "auth/getUser",
+};
