@@ -15,7 +15,7 @@ import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
 
-const pages = ["Home", "Login", "Signup", "Profile"];
+const pages = [];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
